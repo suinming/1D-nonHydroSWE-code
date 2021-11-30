@@ -7,18 +7,21 @@ The research is published at
 
 ## Description
 
-### Abstract
+### Motivation
 
-In this paper, a truly explicit time marching procedure for solving the non-hydrostatic shallow water 
-13 equation (SWE) problems is proposed. The procedure includes a process of prediction and several 
-iterations of 14 corrections. In these processes, it is significant to accurately calculate the spatial 
-derives of the physical quantities 15 such as the temporal water depth, the average velocities in the 
-horizontal and vertical directions, and the dynamic 16 pressure at the bottom. 
-The weighted-least-squares (WLS) meshless method is employed to calculate these spatial 17 derivatives. 
-Though the non-hydrostatic shallow water equations are two dimensional, on the focus of presenting 18 
-this brand new time marching approach, we just use one dimensional benchmark problems to validate the 
-stability 19 and accuracy of the present model. Good agreement can be found in the comparing the present 
-numerical results 20 with analytic solutions, experiment data, or other numerical results.
+    A truly explicit time marching procedure for solving the non-hydrostatic shallow water 
+    equation (SWE) problems is proposed. The procedure includes a process of prediction and several 
+    iterations of corrections. 
+    
+    In these processes, it is significant to accurately calculate the spatial derives of the physical 
+    quantities such as the temporal water depth, the average velocities in the horizontal and vertical 
+    directions, and the dynamic pressure at the bottom. 
+    
+    The weighted-least-squares (WLS) meshless method is employed to calculate these spatial derivatives. 
+    Though the non-hydrostatic shallow water equations are two dimensional, on the focus of presenting  
+    this brand new time marching approach, we just use one dimensional benchmark problems to validate the 
+    stability and accuracy of the present model. Good agreement can be found in the comparing the present 
+    numerical results with analytic solutions, experiment data, or other numerical results.
 
 ### case1
 
