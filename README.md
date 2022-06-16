@@ -1,37 +1,21 @@
-# A Weighted-Least-Squares Meshless Model for Non-hydrostatic Shallow Water Waves
+# 無網格法模擬孤立波溯升
 
 ## paper
 
 The research is published at 
 [Water, Volume 13, Issue 22 (November-2 2021)](https://www.mdpi.com/2073-4441/13/22/3195/htm)
 
-## Description
-
-### Motivation
-
-    A truly explicit time marching procedure for solving the 
-    non-hydrostatic shallow water equation (SWE) problems is 
-    proposed. The procedure includes a process of prediction 
-    and several iterations of corrections. 
-    
-    In these processes, it is significant to accurately calculate 
-    the spatial derives of the physical quantities such as the 
-    temporal water depth, the average velocities in the horizontal 
-    and vertical directions, and the dynamic pressure at the bottom. 
-    
-    The weighted-least-squares (WLS) meshless method is employed 
-    to calculate these spatial derivatives. Though the non-hydrostatic 
-    shallow water equations are two dimensional, on the focus of 
-    presenting  this brand new time marching approach, we just use 
-    one dimensional benchmark problems to validate the stability and 
-    accuracy of the present model. Good agreement can be found in the 
-    comparing the present numerical results with analytic solutions, 
-    experiment data, or other numerical results.
+### Dependencies
+codeBlock IDE and MinGW compiler (google it and there are tons of resource on the internet)
 
 ### case1
+使孤立波通過一水平底床，測試模式穩定性。
 
 ### case2
+在造波邊界造規則波
 
 ### case3
+孤立波通過地形變化。
 
 ### case4
+孤立波溯升
